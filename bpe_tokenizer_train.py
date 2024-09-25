@@ -5,6 +5,6 @@ with open("MahaBharat.txt", "r") as f:
     text = f.read()
 
 # Train
-tokenizer.train(text, 16000)
+tokenizer.train(text, 10000)
 # Save
 tokenizer.save("bpe_Tokenizer")
